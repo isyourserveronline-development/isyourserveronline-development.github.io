@@ -1,0 +1,177 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	background-color: #f7f7f7;
+	position: relative;
+	min-height: 100vh;
+}
+
+main {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	padding: 0 1rem; /* Agregamos padding para adaptar el contenido a celulares */
+}
+
+h1 {
+	font-size: 2.5rem;
+	margin-bottom: 2rem;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-bottom: 2rem;
+}
+
+label {
+	font-size: 1.25rem;
+	margin-bottom: 0.5rem;
+}
+
+input[type="text"] {
+	padding: 0.5rem;
+	font-size: 1.25rem;
+	border: none;
+	border-radius: 0.25rem;
+	box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.1);
+}
+
+button[type="submit"] {
+	margin-top: 1rem;
+	padding: 0.5rem;
+	font-size: 1.25rem;
+	border: none;
+	border-radius: 0.25rem;
+	background-color: #0077ff;
+	color: #fff;
+	box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.1);
+	cursor: pointer;
+}
+
+button[type="submit"]:hover {
+	background-color: #005ad1;
+}
+
+footer {
+	background-color: #121212;
+	color: #fff;
+	padding: 1rem;
+	text-align: center;
+	position: fixed; /* Cambiamos a posición fija para que siempre esté visible */
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+
+.footer-block {
+	margin: 0.5rem;
+}
+
+footer a {
+	color: #fff;
+	font-weight: bold;
+	font-size: 1.5rem; /* Aumentamos el tamaño de fuente para los íconos de redes sociales */
+}
+
+footer a:hover {
+	text-decoration: underline;
+}
+
+#status {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+  }
+  
+  .online {
+    color: green;
+    font-size: 1.5rem; /* Aumentamos el tamaño de fuente */
+  }
+  
+  .offline {
+    color: red;
+    font-size: 1.5rem; /* Aumentamos el tamaño de fuente */
+  }
+  
+  #status .players {
+    margin-left: 1rem;
+    font-size: 1.5rem; /* Ajustamos el tamaño de fuente */
+  }
+  
+  @media (max-width: 768px) {
+    /* Ajustes de tamaño de fuente para pantallas pequeñas */
+    .online, .offline, #status .players {
+      font-size: 1.25rem;
+    }
+  
+    #status {
+      margin-top: 1rem;
+    }
+  }
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+  }
+
+  form {
+    margin-bottom: 1rem;
+  }
+
+  input[type="text"] {
+    font-size: 1rem;
+  }
+
+  button[type="submit"] {
+    font-size: 1rem;
+  }
+
+  footer a {
+    font-size: 2rem;
+  }
+
+  #status {
+    margin-top: 1rem;
+  }
+}
+
+nav {
+	background-color: #333;
+	color: #fff;
+	height: 3rem; /* Ajustamos la altura */
+}
+
+nav ul {
+	list-style: none;
+	display: flex;
+	justify-content: space-between;
+	align-items: center; /* Centramos verticalmente */
+	height: 100%; /* Ajustamos la altura */
+	padding: 0 1rem; /* Agregamos padding horizontal */
+}
+
+nav li {
+	margin: 0 0.5rem; /* Reducimos el margen */
+}
+
+nav a {
+	color: #fff;
+	text-decoration: none;
+	padding: 0.5rem 1rem; /* Agregamos padding vertical y horizontal */
+	transition: background-color 0.2s ease;
+}
+
+nav a:hover {
+	background-color: #555;
+}

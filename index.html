@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Is your server online?</title>
+	<link rel="stylesheet" href="styles.css">
+	<!-- Añadir FontAwesome -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+
+<body>
+	<header>
+		<nav>
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#server-status">Server Status</a></li>
+				<li><a href="ServerList/index.html">Server List</a></li>
+			</ul>
+		</nav>
+	</header>
+	
+	<main>
+		<section id="server-status"></section>
+		<h1>Is your server online?</h1>
+		<form>
+			<label for="server-ip">Input the server ip:</label>
+			<input type="text" id="server-ip" placeholder="Ej: play.hypixel.net">
+			<button type="submit">Get Status</button>
+		</form>
+		<div id="status">
+			<span id="online-icon"></span>
+			<span id="status-text"></span>
+			<span id="player-count"></span>
+			<div id="server-status"></div>
+			<div id="player-count"></div>
+			<div id="motd"></div>
+		</div>
+		</section>
+	</main>
+	<footer>
+		<div class="footer-block">
+			<p>Made using <a href="https://mcsrvstat.us/">mcsrvstat.us api.</a></p>
+			<p>Made with ❤️ by Carpodi.</p>
+		</div>
+		<div class="footer-block">
+			<div class="social-icons">
+				<a href="https://twitter.com/DevCarpodi"><i class="fab fa-twitter"></i></a>
+				<a href="https://github.com/Carpodi"><i class="fab fa-github"></i></a>
+			</div>
+		</div>
+
+	</footer>
+	<script src="scripts.js"></script>
+</body>
+
+</html>

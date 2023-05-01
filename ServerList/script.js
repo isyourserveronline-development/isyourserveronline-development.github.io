@@ -4,7 +4,9 @@ $(document).ready(function() {
 	// Lista de servidores de Minecraft
 	const servers = [
 		{ name: 'Hypixel Network', domain: 'hypixel.net' },
-		{ name: 'Kaory Network', domain: 'mc.kaory.xyz' }
+		{ name: 'Kaory Network', domain: 'mc.kaory.xyz' },
+		{ name: 'RedDevilsMC', domain: 'play.reddevilsmc.net'},
+		{name: 'RyzenNet', domain: 'mc.ryzennet.xyz'}
 	];
 
 	// Función para obtener información del servidor

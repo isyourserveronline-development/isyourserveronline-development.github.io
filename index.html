@@ -6,13 +6,10 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="description" content="Is Your Server Online? is a web page that allows users to check the online status of a Minecraft server by entering its IP address. The page uses the mcsrvstat.us API to retrieve server information and displays it visually, including online status, player count, and MOTD. Designed by Carpodi.">
 	<title>Is your server online?</title>
-        <link rel="shortcut icon" type="image/png" href="isyo.ico">
+    <link rel="shortcut icon" type="image/png" href="isyo.ico">
 	<link rel="stylesheet" href="styles.css">
 	<!-- Añadir FontAwesome -->
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-	
-	<script src="scripts.js"></script>
-		
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">	
 </head>
 
 <body>
@@ -27,13 +24,27 @@
 	</header>
 	
 	<main>
-		<section id="server-status"></section>
+		<section id="server-status">
 		<h1>Is your server online?</h1>
 		<form>
 			<label for="server-ip">Input the server ip:</label>
 			<input type="text" id="server-ip" placeholder="Ej: play.hypixel.net">
 			<button type="submit">Get Status</button>
 		</form>
+		<script>
+			const urlParams = new URLSearchParams(window.location.search);
+			const ip = urlParams.get('ip');
+
+			if (ip) {
+				if (ip.includes(":")) {
+					const ipSplit = ip.split(":");
+					document.getElementById("server-ip").value = ipSplit[0];
+					document.getElementById("server-port").value = ipSplit[1];
+				} else {
+					document.getElementById("server-ip").value = ip;
+				}
+			}
+		</script>
 		<div id="status">
 			<span id="online-icon"></span>
 			<span id="status-text"></span>
@@ -57,7 +68,7 @@
 		</div>
 
 	</footer>
-	
+	<script src="./script.js"></script>
 </body>
 
 </html>

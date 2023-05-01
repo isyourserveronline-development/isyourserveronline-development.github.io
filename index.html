@@ -11,16 +11,7 @@
 	<!-- Añadir FontAwesome -->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 	
-	<script>
-                // Recupera el valor del parámetro "ip" de la URL
-        const urlParams = new URLSearchParams(window.location.search);
-        const ip = urlParams.get('ip');
-
-        // Si se proporcionó una dirección IP en la URL, insertarla automáticamente en el campo de búsqueda
-        if (ip) {
-        document.getElementById('server-ip').value = ip;
-        }
-        </script>
+	<script src="scripts.js"></script>
 		
 </head>
 
@@ -66,7 +57,7 @@
 		</div>
 
 	</footer>
-	<script src="scripts.js"></script>
+	
 </body>
 
 </html>

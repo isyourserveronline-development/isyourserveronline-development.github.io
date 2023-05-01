@@ -16,7 +16,7 @@ $(document).ready(function() {
 		$.get(url, function(response) {
 			let players = response.players.online;
 			let maxPlayers = response.players.max;
-			let connection = response.online ? 'En línea' : 'Fuera de línea';
+			let connection = response.online ? 'Online' : 'Offline';
 
 			serverList.append(`
 				<tr>
@@ -31,7 +31,7 @@ $(document).ready(function() {
 				<tr>
 					<td>${server.name}</td>
 					<td>${server.domain}</td>
-					<td colspan="2" class="connection-offline">Fuera de línea</td>
+					<td colspan="2" class="connection-offline">Offline</td>
 				</tr>
 			`);
 		});

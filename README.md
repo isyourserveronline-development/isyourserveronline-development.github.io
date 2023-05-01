@@ -4,6 +4,8 @@ Our non-profit group is dedicated to hosting a server status website for the pop
 Our website also has a list of servers, and it is also possible to add your own server. In addition, we also offer tools for server owners to report their current status.
 
 We strive to keep our website up to date and accurate, and we work closely with the online gaming community to continually improve the functionality and usability of our website. We believe that our website is a valuable tool for the online gaming community and we are committed to continuing to provide this service free of charge.
+## Can i add my own server? Yes!
+Just go to ServerList/script.js, edit the script, add your server and make a Pull request!, also you can contact us via twitter to add your own server.
 ## Team:
 [Carpodi](https://carpodi.xyz) - Front & Backend developer. |
 [HappyRogelio7](https://twitter.com/HappyRogelio7) - Some pull request and bug fixes.

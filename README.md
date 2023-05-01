@@ -10,5 +10,5 @@ Just go to ServerList/script.js, edit the script, add your server and make a Pul
 [Carpodi](https://carpodi.xyz) - Front & Backend developer. |
 [HappyRogelio7](https://twitter.com/HappyRogelio7) - Some pull request and bug fixes.
 ## Special thanks to: 
-[Luc4s](https://luc4s.dev) - <3 |
+[Luc4s](https://luc4s.dev) - <3 | Luc4s, we dont have too mucho to say, we love u.
 

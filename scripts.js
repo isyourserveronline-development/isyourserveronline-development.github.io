@@ -34,13 +34,5 @@ form.addEventListener('submit', (event) => {
 			status.textContent = 'Unknown Error..';
 			console.error(error);
 		});
-		// Recupera el valor del parámetro "ip" de la URL
-const urlParams = new URLSearchParams(window.location.search);
-const ip = urlParams.get('ip');
-
-// Si se proporcionó una dirección IP en la URL, insertarla automáticamente en el campo de búsqueda
-if (ip) {
-  document.getElementById('server-ip').value = ip;
-}
 
 });

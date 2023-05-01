@@ -7,5 +7,5 @@ We strive to keep our website up to date and accurate, and we work closely with 
 ## Team:
 [Carpodi](https://carpodi.xyz) - Front & Backend developer.
 ## Special thanks to: 
-[Luc4s](https://luc4s.dev) - <3
+[Luc4s](https://luc4s.dev) - <3 |
 [HappyRogelio7](https://twitter.com/HappyRogelio7) - Some pull request and bug fixes.

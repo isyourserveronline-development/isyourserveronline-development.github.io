@@ -8,7 +8,7 @@ $(document).ready(function() {
 		{ name: 'RedDevilsMC', domain: 'play.reddevilsmc.net'},
 		{name: 'RyzenNet', domain: 'mc.ryzennet.xyz'},
 		{name: 'AtlantisMC', domain: 'atlantismc.eu'},
-		{'Watones Network', domain: 'mc.watones.xyz'}
+		{name: 'Watones Network', domain: 'mc.watones.xyz'}
 	];
 
 	// Función para obtener información del servidor

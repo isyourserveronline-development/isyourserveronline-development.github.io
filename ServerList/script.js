@@ -6,7 +6,9 @@ $(document).ready(function() {
 		{ name: 'Hypixel Network', domain: 'hypixel.net' },
 		{ name: 'Kaory Network', domain: 'mc.kaory.xyz' },
 		{ name: 'RedDevilsMC', domain: 'play.reddevilsmc.net'},
-		{name: 'RyzenNet', domain: 'mc.ryzennet.xyz'}
+		{name: 'RyzenNet', domain: 'mc.ryzennet.xyz'},
+		{name: 'AtlantisMC', domain: 'atlantismc.eu'},
+		{'Watones Network', domain: 'mc.watones.xyz'}
 	];
 
 	// Función para obtener información del servidor

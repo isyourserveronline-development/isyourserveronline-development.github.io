@@ -9,6 +9,7 @@ $(document).ready(function() {
 		{ name: 'RedDevilsMC', domain: 'play.reddevilsmc.net'},
 		{ name: 'RyzenNet', domain: 'mc.ryzennet.xyz'},
 		{ name: 'AtlantisMC', domain: 'atlantismc.eu'},
+		{ name: 'Mazer Network', domain: 'mazerclub.com'},
 		{ name: 'Watones Network', domain: 'mc.watones.xyz'}
 	];
 

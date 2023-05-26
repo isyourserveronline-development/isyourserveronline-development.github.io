@@ -19,6 +19,7 @@
 				<li><a href="#">Home</a></li>
 				<li><a href="#server-status">Server Status</a></li>
 				<li><a href="ServerList/index.html">Server List</a></li>
+				<li><a href="https://theserversjars.kaoryhosting.xyz/">TheServersJars</a></li>
 			</ul>
 		</nav>
 	</header>
@@ -28,10 +29,13 @@
 		<h1>Is your server online?</h1>
 		<form>
 			<label for="server-ip">Input the server ip:</label>
-			<input type="text" id="server-ip" placeholder="Ej: play.hypixel.net">
+			<input type="text" id="server-ip" placeholder="Example: play.hypixel.net">
 			<button type="submit">Get Status</button>
 		</form>
 		<script>
+                        // Script Info
+                        // Add automatic IP in domanin ip?=hypixel.net
+                        // By https://github.com/HappyRogelio7
 			const urlParams = new URLSearchParams(window.location.search);
 			const ip = urlParams.get('ip');
 

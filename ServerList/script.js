@@ -10,8 +10,6 @@ $(document).ready(function() {
 		{ name: 'RyzenNet', domain: 'mc.ryzennet.xyz'},
 		{ name: 'AtlantisMC', domain: 'atlantismc.eu'},
 		{ name: 'Mazer Network', domain: 'mazerclub.com'},
-		{ name: 'FortyCraft Network', domain: 'mc.fortycraft.xyz'},
-		{ name: 'Watones Network', domain: 'mc.watones.xyz'}
 	];
 
 	// Función para obtener información del servidor

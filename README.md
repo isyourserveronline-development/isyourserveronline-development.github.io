@@ -1,3 +1,8 @@
+> [!IMPORTANT]  
+> This project is somewhat inactive, it is still online on the Github page [Click here to see it](https://isyourserveronline-development.github.io/), but most likely pull requests to add your server to the list will not be accepted or will take a long time.
+>
+> Sincerely yours, one of the people who helped in the project.
+
 # isyourserver.online? 
 Our non-profit group is dedicated to hosting a server status website for the popular game minecraft. Our goal is to provide a platform for gamers to easily check if their favorite server is online and how many players are currently online. We believe this is particularly important for players who rely on servers to organize events and tournaments.
 
